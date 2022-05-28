@@ -11,6 +11,7 @@ $(function () {
 		$('html, body').on('wheel keyup keydown', function (e) {  // при воздействии на body и html колесиком мыши, нажатии конопок
 			$('html').css('position', 'static');	// возвращает html обычные свойтсва
 		});
+		$('html, body').off('touchmove');
 	}
 	
 
