@@ -1,0 +1,66 @@
+body, html{
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+.container-content{
+	width: 1000px;
+	margin: 0 auto;
+}
+h2{
+	text-align: center;
+}
+.wrapper-hidden{
+	width: 100%;
+	background-color: aquamarine;
+	padding: 20px;
+	border: 1px solid rgb(151, 123, 123);
+}
+.hidden{
+	width: 70%;
+	margin: 0 auto;
+	background-color: bisque;
+}
+.popup-container1{
+	/*должен быть на весь экран*/
+	display: none;
+	margin: 0;
+	padding: 0;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 10;
+	background-color: rgba(0, 0, 0, 0.7);
+}
+.popup1{
+	width: 400px;
+	height: 500px;
+	background-color: #fff;
+	padding: 20px;
+	margin: 40px auto;
+	
+}
+
+.popup-container2{
+	/*должен быть на весь экран*/
+	display: none;
+	margin: 0;
+	padding: 0;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 10;
+	background-color: rgba(0, 0, 0, 0.7);
+}
+.popup2{
+	width: 0px;
+	height: 0px;
+	background-color: #fff;
+	padding: 20px;
+	margin: 40px auto;
+	
+}
