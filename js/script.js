@@ -4,7 +4,7 @@ $(function () {
 	function dissableScroll() {
 		$('html, body').on('wheel keyup keydown touchmove', function (e) {  // при воздействии на body и html колесиком мыши, нажатии конопок 
 			$('html').css('position', 'fixed');	// дает html позицию фикс, предотвращает прокрутку
-			e.preventDefault();
+			return false;
 		});
 	}
 	function enableScroll() {
